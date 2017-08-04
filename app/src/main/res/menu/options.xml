@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item android:id="@+id/sendFriend"
+        android:title="Send to Friend"></item>
+    <item android:id="@+id/Quit"
+        android:title="Quit"></item>
+    <item android:id="@+id/Quiz"
+        app:showAsAction="always"
+        android:title="Quiz"></item>
+</menu>

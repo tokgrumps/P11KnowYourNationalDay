@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#404040" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/test_yourself"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/firstQues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/firstQues" />
+
+    <RadioGroup
+        android:id="@+id/firstAns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/firstYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/yes" />
+
+        <RadioButton
+            android:id="@+id/firstNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/no" />
+    </RadioGroup>
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#404040" />
+
+    <TextView
+        android:id="@+id/secondQues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/secondQues" />
+
+    <RadioGroup
+        android:id="@+id/secondAns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/secondYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/yes" />
+
+        <RadioButton
+            android:id="@+id/secondNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/no" />
+    </RadioGroup>
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#404040" />
+
+    <TextView
+        android:id="@+id/thirdQues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/thirdQues" />
+
+    <RadioGroup
+        android:id="@+id/thirdAns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/thirdYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/yes" />
+
+        <RadioButton
+            android:id="@+id/thirdNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/no" />
+    </RadioGroup>
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#404040" />
+
+
+
+</LinearLayout>

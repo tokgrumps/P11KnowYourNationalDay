@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">P11 Know Your National Day</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="test_yourself">Test Yourself!</string>
+    <string name="firstQues">a. Singapore National Day is on 8 Sept</string>
+    <string name="secondQues">b. Singapore is 52 years old</string>
+    <string name="thirdQues">c. This year’s National Day theme is #OneNationTogether</string>
+</resources>
